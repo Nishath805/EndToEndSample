@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="modules.MyTimesheet">
+        <methods>
+          <include name="myTimeSheetIcon"/>
+        </methods>
+      </class> <!-- modules.MyTimesheet -->
+      <class name="modules.ApplyLeave">
+        <methods>
+          <include name="leaveListButton"/>
+          <include name="applyLeaveIcon"/>
+        </methods>
+      </class> <!-- modules.ApplyLeave -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
